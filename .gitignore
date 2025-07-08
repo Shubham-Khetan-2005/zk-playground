@@ -1,0 +1,46 @@
+node_modules
+.env
+
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/chain-31337
+
+
+# Sensitive ZK files
+build/witness.wtns
+build/*witness*
+input.json
+calldata.json
+**/private-key*
+
+# Large setup files
+build/pot12_final.ptau
+build/pot12_0001.ptau
+build/preimage_final.zkey
+
+# Generated artifacts
+artifacts/
+cache/
+node_modules/
+build/preimage_js/
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
